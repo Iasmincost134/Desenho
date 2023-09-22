@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas" width="900" height="700"></canvas>
+    <div class="conteudo">
+    <input type="color" id="cor" value="#000000">
+    <label for="espessura">Espessura do Pincel:</label>
+    <input type="range" id="espessura" min="1" max="10" step="1" value="1">
+    <label for="forma">Escolha uma forma:</label>
+    <select id="forma">
+        <option value="circulo">Círculo</option>
+        <option value="linha">Linha</option>
+        <option value="linha">Desenhar</option>
+    </select>
+    <button id="preencherDesenhoButton">Preencher Desenho</button>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
